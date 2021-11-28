@@ -22,7 +22,7 @@ public class Main_Splash extends AppCompatActivity {
         h.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent i = new Intent(Main_Splash.this, Login.class);
+                Intent i = new Intent(Main_Splash.this,Beranda.class);
                 startActivity(i);
                 finish();
             }
